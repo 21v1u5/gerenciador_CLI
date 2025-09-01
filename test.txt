@@ -1,0 +1,16 @@
+### visao geral ####
+
+camadas:
+	models.py -> dominio (Task)
+	storage.py -> persistência em tasks.json
+	cli.py -> interface de linha de comando(argparse)
+	main.py -> ponto de entrada
+
+testes com pytest(TDD incremental)
+README.md e requeriments.txt
+Git com commits pequenos e descritivos
+
+pre-requisitos:
+python3 >= 3.10
+pip --version
+git --version

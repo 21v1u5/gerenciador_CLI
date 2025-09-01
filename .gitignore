@@ -1,0 +1,6 @@
+__pycache__/
+.venc/
+*.pyc
+*pyo
+.pytest_cache/
+.tasks_bachup.json
