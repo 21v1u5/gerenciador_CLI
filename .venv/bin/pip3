@@ -1,4 +1,4 @@
-#!/home/n0b0dy/Documents/python-Projects/engenhariaDsoftware/Gerenciador_De_tarefas_CLI/.venv/bin/python3
+#!/home/n0b0dy/Documents/python-Projects/engenhariaDsoftware/gerenciador_de_tarefas_cli/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

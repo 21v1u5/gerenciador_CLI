@@ -15,7 +15,7 @@ def _parse_date(s: Optional[str]) -> Optional[str]:
     if not s:
         return None
     try:
-        datetime.strftime(s, "%d-%m-%Y")
+        datetime.strptime(s, "%d-%m-%Y")
         return s
     except ValueError:
         raise ValueError("formato de data invalido, tente DD-MM-YYYY")
